@@ -9,25 +9,24 @@
 </head>
 <body>
   <!-- nav -->
-  <div class="fixed top-0 left-0 w-full z-30 text-white h-16 flex items-center blur-1 flex invisible lg:visible" id="nav-float">
+  <div class="fixed top-0 left-0 w-full z-30 text-white h-16 flex items-center blur-1 hidden invisible lg:visible" id="nav-float">
     <div class="max-w-screen-xl mx-auto xl:px-0 px-10 flex justify-between w-full">
-      <div class="flex items-center">
-        <img src="src/img/logo-2.png" alt="" class="w-36">
-        <a class="nav-link block active ml-12" href="#home">Home</a>
-        <a class="nav-link block ml-10" href="#artists">Artists</a>
-        <a class="nav-link block ml-10" href="#events">Events </a>
-      </div>
-      <div class="flex items-center">
-        <a href="https://twitter.com/RiffianClub" class="py-1 px-3 cursor-pointer " target="_blank"><img src="src/img/t-1.png" alt="" class="w-3"></a>
-        <a href="https://discord.gg/uqzKNhHEQS" class="py-1 px-3 cursor-pointer " target="_blank"><img src="src/img/d-1.png" alt="" class="w-4"></a>
-        <a href="https://doc.riffian.global" class="py-1 px-3 cursor-pointer " target="_blank"><img src="src/img/book.png" alt="" class="w-4"></a>
-        <div class=" px-3"><a href="https://app.riffian.global" class="rounded-md text-[#202046] font-bold p-3 px-2 bg-white">Lanuch APP</a></div>
+      <div><img src="src/img/logo-1.png" alt="" class="w-8"></div>
+      <div class="grid grid-cols-7 gap-4">
+        <a class="nav-link block active" href="#home">Home</a>
+        <a class="nav-link block" href="#data">Data</a>
+        <a class="nav-link block" href="#riffian">Riffian</a>
+        <a class="nav-link block" href="#artists">ARTISTS</a>
+        <a class="nav-link block" href="#events">Events</a>
+        <!-- <a class="nav-link block" href="#community">Community</a> -->
+        <div><a href="https://app.riffian.global" class="rounded-md text-[#202046] font-bold p-3 px-2 bg-white">Lanuch APP</a>
+</div>
       </div>
     </div>
   </div>
   <!-- menu mobile -->
-  <div class="fixed top-0 left-0 w-full z-30 text-white flex items-center justify-between p-3 blur-1 lg:hidden">
-    <div><img src="src/img/logo-2.png" alt="" class="w-20"></div>
+  <div class="fixed top-0 left-0 w-full z-30 text-white flex justify-between p-3 blur-1 lg:hidden">
+    <div><img src="src/img/logo-1.png" alt="" class="w-6"></div>
     <div class="w-6" id="menu-icon"><img src="src/img/menu.svg" alt="" class="invert"></div>
   </div>
   <div class="fixed top-0 left-0 w-full h-full bg-black/50 z-50 hidden" id="menu">
@@ -37,8 +36,8 @@
       </div>
       <div class="grid grid-cols-1 gap-4 mt-2">
         <a class="nav-link block active" href="#home">Home</a>
-        <!-- <a class="nav-link block" href="#data">Data</a>
-        <a class="nav-link block" href="#riffian">Riffian</a> -->
+        <a class="nav-link block" href="#data">Data</a>
+        <a class="nav-link block" href="#riffian">Riffian</a>
         <a class="nav-link block" href="#artists">ARTISTS</a>
         <a class="nav-link block" href="#events">Events</a>
         <!-- <a class="nav-link block" href="#community">Community</a> -->
@@ -48,7 +47,7 @@
   <!-- Home -->
   <div class="section hero" id="home">
     <div class="relative">
-      <!-- <div class="bg-blur absolute w-full left-0 top-0 !z-20 items-center lg:flex hidden" id="nav-home">
+      <div class="bg-blur absolute w-full left-0 top-0 !z-20 items-center lg:flex hidden" id="nav-home">
         <div class="flex justify-between text-white w-full max-w-screen-xl mx-auto items-center xl:px-0 px-10">
           <div class="w-20">
             <a class="nav-link active block" href="#home">Home</a>
@@ -58,15 +57,17 @@
           <div class="w-20">
             <img src="src/img/logo.png" alt="">
           </div>
+          <!-- <div>Artists</div> -->
           <div class="w-20"><a class="nav-link block" href="#artists">ARTISTS</a></div>
           <div class="w-20"><a class="nav-link block" href="#events">Events</a></div>
+          <!-- <div class="w-20"><a class="nav-link block" href="#community">Community</a></div> -->
           <div class="flex">
             <a href="https://twitter.com/RiffianClub" class="py-1 px-3 cursor-pointer " target="_blank"><img src="src/img/t-1.png" alt="" class="w-3"></a>
             <a href="https://discord.gg/uqzKNhHEQS" class="py-1 px-3 cursor-pointer " target="_blank"><img src="src/img/d-1.png" alt="" class="w-4"></a>
             <a href="https://doc.riffian.global" class="py-1 px-3 cursor-pointer " target="_blank"><img src="src/img/book.png" alt="" class="w-4"></a>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- <div class="absolute bg-filter w-full h-full left-0 top-0">
         <img src="src/img/filter.png" alt="">
       </div> -->

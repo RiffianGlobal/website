@@ -1,16 +1,16 @@
 import '../css/index.css'
 import $ from 'jquery' 
-document.onscroll = (e) => {
-  const heroHeight = $('.hero').height()
-  if ($(window).scrollTop()>=heroHeight-80) {
-    // $('#nav-float').removeClass('hidden')
-    $('#nav-float').fadeIn().css("display", "flex")
-    // $('#nav-float').removeClass('blur-1').addClass('blur-1')
-  } else {
-    // $('#nav-float').addClass('hidden')
-    $('#nav-float').fadeOut()
-  }
-}
+// document.onscroll = (e) => {
+//   const heroHeight = $('.hero').height()
+//   if ($(window).scrollTop()>=heroHeight-80) {
+//     // $('#nav-float').removeClass('hidden')
+//     $('#nav-float').fadeIn().css("display", "flex")
+//     // $('#nav-float').removeClass('blur-1').addClass('blur-1')
+//   } else {
+//     // $('#nav-float').addClass('hidden')
+//     $('#nav-float').fadeOut()
+//   }
+// }
 
 $('a[href*="#"]:not([href="#"])').click(function() {
   $('.nav-link').each((idx, item) => {
